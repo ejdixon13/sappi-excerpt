@@ -1,0 +1,24 @@
+.loadingSpinner {
+  background-size: 20px;
+  // background-image: url('../../assets/spin_loader.gif');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+.loadingHorizontal {
+  background-size: 150px;
+  // background-image: url('../../assets/horizontal_loader.gif');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 150px;
+  margin: auto;
+}
+
+.loadingAjax {
+  background-size: 20px;
+  // background-image: url('../../assets/ajax-loader.gif');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+}

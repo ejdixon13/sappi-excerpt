@@ -1,0 +1,9 @@
+.sappi-ant-tooltip-error {
+  .ant-tooltip-inner {
+    color: theme('colors.white.white')!important;
+    background-color: theme('colors.red.red');
+  }
+  .ant-tooltip-arrow-content {
+    background-color: theme('colors.red.red');
+  }
+}

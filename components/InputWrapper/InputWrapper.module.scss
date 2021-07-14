@@ -1,0 +1,65 @@
+.input-wrapper {
+  input, textarea {
+    @apply shadow-md;
+    @apply border-none;
+    @apply text-blue-pacific;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+    &:required {
+      border-bottom: 2px solid red;
+    }
+    &:disabled {
+      box-shadow: 0 0 10px theme('colors.gray.light100');
+      @apply text-gray-light100;
+    }
+  }
+  input {
+    height: 34px;
+  }
+  input[type=file] {
+    height: 40px;
+  }
+  select {
+    @extend input;
+    padding: 5px 35px 5px 5px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    -moz-appearance: none;
+    -moz-border-radius: 0px;
+  }
+  &.input-wrapper--no-box-outline {
+    width: fit-content;
+    input,
+    select {
+      box-shadow: none;
+    }
+  }
+
+  &.input-wrapper--solid-outline {
+    width: fit-content;
+    input,
+    select {
+      border: solid 1px theme('colors.gray.dark300Disabled');
+      box-shadow: none;
+    }
+  }
+
+  &.default-width {
+    width: calc(100% - 40px);
+  }
+}
+
+.input-wrapper--error {
+  input, textarea {
+    box-shadow: 0 0 10px red !important;
+    color: red;
+  }
+  select {
+    box-shadow: 0 0 10px red !important;
+    color: red;
+  }
+}
+.thing {
+  background: blue;
+}
