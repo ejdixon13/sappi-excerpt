@@ -1,3 +1,3 @@
-# react-ts-dfl3zf
+# sappi-excerpt
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-dfl3zf)
+This is an excerpt taken from a current work project and is in a non-functional state, but is purely for demonstration purposes
